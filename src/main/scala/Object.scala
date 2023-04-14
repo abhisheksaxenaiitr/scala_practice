@@ -1,13 +1,11 @@
 import java.lang.Class
 import scala.annotation.tailrec
 import scala.jdk.Accumulator
-/*object Object extends App {
-  val maths = new My_Class()
-  //println(maths.sum(10))
-  println(maths.isPrime(21))
-}*/
 
 object Object extends App{
+  val maths = new My_Class()
+  println(maths.sum(10))
+  println(maths.isPrime(21))
   val author = new Writer("Charles", "Dickens", 1812)
   val novel  = new Novel("Great Expectations", 1861, author)
   val author2 = new Writer("Charles", "Dickens", 1812)
