@@ -2,7 +2,7 @@ import java.io.Writer
 import scala.annotation.tailrec
 import scala.jdk.Accumulator
 
-/*class My_Class{
+class My_Class{
 
   def sum(x: Int): Int = {
     @tailrec
@@ -34,7 +34,7 @@ import scala.jdk.Accumulator
 
     isPrimeUntil(n / 2)
 
-}*/
+}
 
 class Writer(firstname: String, surname: String, val year: Int) {
   def fullname: String = firstname + " " + surname
