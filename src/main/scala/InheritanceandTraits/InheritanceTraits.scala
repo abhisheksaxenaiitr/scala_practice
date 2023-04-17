@@ -6,6 +6,8 @@ object InheritanceTraits extends App {
 
 
 
+
+
   println(cat.crunch)
   println(dog.eat)
   println(dog.creaturetype)

@@ -10,6 +10,9 @@ class Cat extends Animal {
     eat
     println("crunch crunch")
   }
+
+  //eat
+  //println(1)
 }
 
 class Person(name: String, age: Int)
@@ -19,4 +22,5 @@ class Dog extends Animal{
   override val creaturetype = "Domestic Animal"
   override def eat = println("Crunch Crunch")
 }
+
 
