@@ -7,7 +7,7 @@ class Animal {
 
 sealed class Cat extends Animal {
   def crunch = {
-    eat
+    //eat
     super.eat
     println("crunch crunch")
   }
