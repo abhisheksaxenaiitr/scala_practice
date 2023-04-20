@@ -30,4 +30,3 @@ final class Dog(override val creaturetype: String = "Domestic Animal" ) extends 
 }
 
 
-

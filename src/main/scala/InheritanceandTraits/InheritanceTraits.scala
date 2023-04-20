@@ -5,10 +5,10 @@ object InheritanceTraits extends App {
   val dog = new Dog
   val bird = new Bird
 
-
-  println(cat.crunch)
-  println(dog.eat)
-  println(dog.creaturetype)
+ // println(cat.crunch)
+  //println(dog.eat)
+  //println(dog.creaturetype)
 
 
 }
+
