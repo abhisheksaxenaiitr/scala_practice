@@ -29,4 +29,4 @@ final class Dog(override val creaturetype: String = "Domestic Animal" ) extends 
   override def eat = println("nom nom")
 }
 
-
+// New comment test
