@@ -1,6 +1,7 @@
 package Sets
 
 import java.util
+import scala.collection.immutable.SortedSet
 
 object SetObject extends App {
   val s = Set(1,3,5,7,9)
@@ -23,6 +24,7 @@ object SetObject extends App {
   println(s"Intersection of num1 and num2 is ${num1.intersect(num2)}")
 
   //SorteSet
-  //val s: SortedSet[Int] = SortedSet(9,10,11,4,7)
+  val ss: SortedSet[Int] = SortedSet(9,10,11,4,7)
+  ss.foreach(println)
 
 }
