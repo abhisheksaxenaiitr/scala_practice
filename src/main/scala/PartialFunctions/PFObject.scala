@@ -1,7 +1,9 @@
 package PartialFunctions
 
+
+
 object PFObject extends App {
-  val gradeE: PartialFunction[Int, String] = {
+/*  val gradeE: PartialFunction[Int, String] = {
     case marks if marks >= 0 && marks < 30 => "E"
   }
 
@@ -25,5 +27,21 @@ object PFObject extends App {
   val gradingsystem = gradeA orElse gradeB orElse gradeC orElse gradeD orElse gradeE
 
   val c = marksofstudent.map(gradingsystem)
-  println(c)
+  println(c)*/
+
+  val func1 : PartialFunction[Int, String] = {
+    case marks if marks>= 30 && marks <60 =>"Poor Performance"
+  }
+
+  val func2 : PartialFunction[Int, String] = {
+    case marks if marks>=60 && marks<=100 => "Good Performance"
+  }
+
+  val grading_system = func1 orElse func2
+  val marksofabhi = List(45,68,96,76)
+
+  println(marksofabhi.collect(grading_system))
+
 }
+
+
