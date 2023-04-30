@@ -1,0 +1,5 @@
+package PartiallyAppliedFunction
+
+object PAFObject {
+
+}
