@@ -1,0 +1,5 @@
+package LazyEvaluation
+
+class LazyClass {
+
+}
