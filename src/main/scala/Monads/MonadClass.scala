@@ -1,0 +1,5 @@
+package Monads
+
+class MonadClass {
+
+}

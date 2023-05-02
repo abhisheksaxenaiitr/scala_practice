@@ -1,7 +1,7 @@
 package LazyEvaluation
 
 object LazyObject extends App {
-  lazy val myLazyValue: Int = {
+/*  lazy val myLazyValue: Int = {
     println("Computing myLazyValue")
     42
   }
@@ -9,7 +9,7 @@ object LazyObject extends App {
   println("Before accessing myLazyValue")
   println(myLazyValue)
   println("After accessing myLazyValue")
-  println(myLazyValue)
+  println(myLazyValue)*/
 
 
   /*val a = {
@@ -21,7 +21,8 @@ object LazyObject extends App {
   println("Afterwards")
   println(a)*/
 
-/*  def printValue(n: => Int): Unit = {
+/*
+  def printValue(n: => Int): Unit = {
     println("Before accessing value")
     println(n)
     println("After accessing value")
@@ -30,8 +31,9 @@ object LazyObject extends App {
   printValue({
     println("Computing value")
     42
-  })*/
+  })
 
+*/
 
 
 }
